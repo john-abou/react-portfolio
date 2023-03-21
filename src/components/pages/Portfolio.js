@@ -1,4 +1,4 @@
-import React form 'react';
+import React from 'react';
 
 
 export default function Portfolio() {
@@ -43,5 +43,8 @@ export default function Portfolio() {
     }
   ];
   return (
+    <section id="Portfolio">
+
+    </section>
   );
 }

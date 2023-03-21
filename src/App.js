@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import Navbar from './Navbar';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+import Navbar from '/components/Navbar';
+import About from './components/pages/About';
+import Portfolio from './components/pages/Portfolio';
+import Resume from './components/pages/Resume';
+import Contact from './components/pages/Contact';
+import Footer from './components/Footer';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -12,7 +13,7 @@ export default function App() {
 
   const renderPage = () => {
     if (currentPage === 'About') {
-      return <About />;
+      return  <About />;
     }
     else if (currentPage === 'Portfolio') {
       return <Portfolio />;
@@ -25,11 +26,11 @@ export default function App() {
     }
   };
 
-
   return (
     <main>
       <Navbar currentPage={ currentPage } hanglePageChange={ hanglePageChange } />
       { renderPage() }
+      <Footer />
     </main>
   );
 }
