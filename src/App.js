@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 export default function App() {
   const [currentPage, setCurrentPage] = useState('About');
 
-  const hanglePageChange = (event) => setCurrentPage(event.target.id);
+  const hanglePageChange = (page) => setCurrentPage(page);
 
   const renderPage = () => {
     if (currentPage === 'About') {
