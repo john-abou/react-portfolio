@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar( {currentPage, handlePageChange} ) {
+export default function Navbar({ currentPage, hanglePageChange }) {
   return (
     <nav className="row">
 
@@ -15,7 +15,7 @@ export default function Navbar( {currentPage, handlePageChange} ) {
           <li className='nav-item'>
             <a 
               href="#about"
-              onClick={() => handlePageChange('About')}
+              onClick={() => hanglePageChange('About')}
               className={ currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >
                 About Me
@@ -24,7 +24,7 @@ export default function Navbar( {currentPage, handlePageChange} ) {
           <li className='nav-item'>
             <a 
               href="#portfolio"
-              onClick={() => handlePageChange('Portfolio')}
+              onClick={() => hanglePageChange('Portfolio')}
               className={ currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
             >
                 Portfolio
@@ -33,7 +33,7 @@ export default function Navbar( {currentPage, handlePageChange} ) {
           <li className='nav-item'>
             <a 
               href="#resume"
-              onClick={() => handlePageChange('Resume')}
+              onClick={() => hanglePageChange('Resume')}
               className={ currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
             >
                 Resume
@@ -42,7 +42,7 @@ export default function Navbar( {currentPage, handlePageChange} ) {
           <li className='nav-item'>
             <a 
               href="#contact"
-              onClick={() => handlePageChange('Contact')}
+              onClick={() => hanglePageChange('Contact')}
               className={ currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
             >
                 Contact

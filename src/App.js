@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 export default function App() {
   const [currentPage, setCurrentPage] = useState('About');
 
-  const hanglePageChange = (page) => setCurrentPage(page);
+  const pageChange = (page) => setCurrentPage(page);
 
   const renderPage = () => {
     if (currentPage === 'About') {
@@ -28,7 +28,7 @@ export default function App() {
 
   return (
     <main>
-      <Navbar currentPage={ currentPage } hanglePageChange={ hanglePageChange } />
+      <Navbar currentPage={ currentPage } hanglePageChange={ pageChange } />
       { renderPage() }
       <Footer />
     </main>

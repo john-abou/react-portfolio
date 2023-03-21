@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Resume() {
+  return(
   <section id="Resume">
     <a 
     href='https://docs.google.com/document/d/1Yg2v6GsV0avrAZktEOz51Miigaw_EpfHTESpGBIpne0/edit#'
@@ -30,4 +31,5 @@ export default function Resume() {
       </ul> 
     </article>
   </section>
+  )
 }
