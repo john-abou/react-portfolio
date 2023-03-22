@@ -3,8 +3,8 @@ import React from 'react';
 export default function About() {
   return (
     <section id="About" className='mx-5'>
-      <h1>About Me</h1>
-      <img src="https://via.placeholder.com/150" alt="My face" />
+      <h1 className='text-center mt-5'>About Me</h1>
+      <img src='../../../public/imgs/pp.jpeg' alt="My face" />
       <p>
       Welcome to my portfolio website! My name is John Abounassar, and I'm a Fullstack Web Developer with a passion for creating exceptional mobile-first web applications. With a background in data science and a degree in engineering, I bring a unique set of skills and knowledge to every project I work on.
 
