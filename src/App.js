@@ -27,7 +27,7 @@ export default function App() {
   };
 
   return (
-    <main>
+    <main className='h-100 w-100 d-inline-block'>
       <Navbar currentPage={ currentPage } hanglePageChange={ pageChange } />
       { renderPage() }
       <Footer />

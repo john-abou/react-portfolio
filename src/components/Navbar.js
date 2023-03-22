@@ -2,17 +2,17 @@ import React from "react";
 
 export default function Navbar({ currentPage, hanglePageChange }) {
   return (
-    <nav className="row">
+    <nav className="row w-100 navbar navbar-dark bg-dark">
 
-      <div className="col-2">
+      <div className="col-4 text-light">
         <h1>John Abounassar</h1>
       </div>
 
-      <div className="col-10">
+      <div className="col-8">
 
-        <ul className="nav nav-tabs">
+        <ul className="navbar-nav d-flex flex-row justify-content-end">
 
-          <li className='nav-item'>
+          <li className='nav-item mx-2'>
             <a 
               href="#about"
               onClick={() => hanglePageChange('About')}
@@ -21,16 +21,16 @@ export default function Navbar({ currentPage, hanglePageChange }) {
                 About Me
             </a>
           </li>
-          <li className='nav-item'>
+          <li className='nav-item mx-2'>
             <a 
               href="#portfolio"
               onClick={() => hanglePageChange('Portfolio')}
-              className={ currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+              className={ currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
             >
                 Portfolio
             </a>
           </li>
-          <li className='nav-item'>
+          <li className='nav-item mx-2'>
             <a 
               href="#resume"
               onClick={() => hanglePageChange('Resume')}
@@ -39,7 +39,7 @@ export default function Navbar({ currentPage, hanglePageChange }) {
                 Resume
             </a>
           </li>
-          <li className='nav-item'>
+          <li className='nav-item mx-2'>
             <a 
               href="#contact"
               onClick={() => hanglePageChange('Contact')}
@@ -50,9 +50,7 @@ export default function Navbar({ currentPage, hanglePageChange }) {
           </li>
 
         </ul>
-
       </div>
-
     </nav>
   );
 }
