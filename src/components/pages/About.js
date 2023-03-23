@@ -1,11 +1,12 @@
 import React from 'react';
+import photo from '../../images/pp.jpeg'
 
 export default function About() {
   return (
     <section id="About" className='mx-5'>
       <h1 className='text-center mt-5'>About Me</h1>
-      <img src='../../../public/imgs/pp.jpeg' alt="My face" />
-      <p>
+      {<img src={photo} width="200px" alt="My face" />}
+      <p className='mt-5'>
       Welcome to my portfolio website! My name is John Abounassar, and I'm a Fullstack Web Developer with a passion for creating exceptional mobile-first web applications. With a background in data science and a degree in engineering, I bring a unique set of skills and knowledge to every project I work on.
 
       My expertise includes Javascript, HTML, CSS, Node.js, MySQL, MongoDB, Express.js, and React.js, and I'm constantly expanding my knowledge and exploring new technologies. I've contributed to several successful projects, including LoveLink, a full-stack dating application, and WeTheNorth, a front-end application that uses the balldontlie and SeatGeek API to display NBA game information.

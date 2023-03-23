@@ -1,50 +1,57 @@
 import React from 'react';
-
+import Project from '../Project';
+import llImg from '../../images/lovelink.jpeg';
+import weather from '../../images/weather-app.png';
+import workSched from '../../images/work-scheduler-2.png';
+import weTheNorth from '../../images/we-the-north-3.png';
+import noteTaker from '../../images/note-taker.png'
+import jate from '../../images/jate.png';
 
 export default function Portfolio() {
   
   const projects = [
     {
-      name: 'Project 1',
-      description: 'This is a project',
-      github: '',
-      deployed: '',
-      image: ''
+      name: 'LoveLink',
+      description: 'Lovelink - Dating App',
+      github: 'https://github.com/winglovecola/love-link',
+      deployed: 'https://love-link.herokuapp.com/',
+      image: llImg
     }, {
-      name: 'Project 2',
-      description: 'This is a project',
-      github: '',
-      deployed: '',
-      image: ''
+      name: 'We-The-North',
+      description: 'Basketball App for Stats/Tickets',
+      github: 'https://github.com/Bullspippen/We-The-North',
+      deployed: 'https://john-abou.github.io/We-The-North/',
+      image: weTheNorth
     }, {
-      name: 'Project 3',
-      description: 'This is a project',
-      github: '',
-      deployed: '',
-      image: ''
+      name: 'JATE',
+      description: 'Text editor',
+      github: 'https://github.com/john-abou/text-editor',
+      deployed: 'https://murmuring-dawn-62613.herokuapp.com/',
+      image: jate
     }, {
-      name: 'Project 4',
-      description: 'This is a project',
-      github: '',
-      deployed: '',
-      image: ''
+      name: 'Work Scheduler',
+      description: 'Work Scheduler',
+      github: 'https://github.com/john-abou/work-scheduler',
+      deployed: 'https://john-abou.github.io/work-scheduler/',
+      image: workSched
     }, {
-      name: 'Project 5',
-      description: 'This is a project',
-      github: '',
-      deployed: '',
-      image: ''
+      name: 'Note Taker',
+      description: 'Note Taker',
+      github: 'https://github.com/john-abou/note-taker',
+      deployed: 'https://calm-plains-07753.herokuapp.com/',
+      image: noteTaker
     }, {
-      name: 'Project 6',
-      description: 'This is a project',
-      github: '',
-      deployed: '',
-      image: ''
+      name: 'Weather App',
+      description: 'Weather App - 5 day forecast',
+      github: 'https://github.com/john-abou/weather-app',
+      deployed: 'https://john-abou.github.io/weather-app/',
+      image: weather
     }
   ];
+
   return (
     <section id="Portfolio">
-
+      <Project data={projects} />
     </section>
   );
 }
