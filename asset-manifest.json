@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/react-portfolio/static/js/main.900fd199.js",
+    "main.js": "/react-portfolio/static/js/main.c3c15e76.js",
     "static/media/pp.jpeg": "/react-portfolio/static/media/pp.03502497012e4118e8e7.jpeg",
     "static/media/we-the-north-3.png": "/react-portfolio/static/media/we-the-north-3.05d264121105624c54d4.png",
     "static/media/lovelink.jpeg": "/react-portfolio/static/media/lovelink.e136286335fcbbdbb9e4.jpeg",
@@ -11,10 +11,10 @@
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.ba12434c260eacc81647.png",
     "index.html": "/react-portfolio/index.html",
     "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
-    "main.900fd199.js.map": "/react-portfolio/static/js/main.900fd199.js.map"
+    "main.c3c15e76.js.map": "/react-portfolio/static/js/main.c3c15e76.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.900fd199.js"
+    "static/js/main.c3c15e76.js"
   ]
 }
