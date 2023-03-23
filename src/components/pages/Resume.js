@@ -7,7 +7,7 @@ export default function Resume() {
       <a 
       className='fs-3'
       href='john-a-resume.pdf'
-      download="John A. Resume"
+      download
       >
         Resume
       </a>

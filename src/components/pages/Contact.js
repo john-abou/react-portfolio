@@ -1,33 +1,32 @@
 import React from 'react';
 
 export default function Contact() {
+  const style = {
+    margin: {
+      "margin": "0 15% 0 15%"
+    }
+  }
   return (
-    <section className="row" id='Contact'>
+    <section className="row" id='Contact' style={style.margin}>
       <div className="col-12">
-        <h1>Contact</h1>
-        <ul>
-          <li>
-           <a href="mailto:abounassar.john@gmail.com">Email me</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/john-abounassar/">LinkedIn</a>
-          </li>
-          <li>
-            <a href="https://github.com/john-abou">Github</a>
-          </li>
-          <li>
-            Phone: 905-330-4652
-          </li>
-        </ul>
+        <h1 className='text-center my-5'>Contact</h1>
 
         <form>
-          <label htmlFor="name">Name</label>
-          <input type="text" name="name" id="name" />
-          <label htmlFor='email'>Email</label>
-          <input type="email" name="email" id="email" />
-          <label htmlFor="message">Message</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
-          <button type="submit">Submit</button>
+          <div className="input-group mb-3">
+            <span className="input-group-text" id="basic-addon1">Name</span>
+            <input type="text" className='form-control' name="name" placeholder="John Doe" id="name" />
+          </div>
+          <div className="input-group mb-3">
+            <span className="input-group-text" id="basic-addon1">Email</span>
+            <input type="email" className='form-control' name="email" placeholder="john@gmail.com" id="email" />
+          </div>
+          <div className="input-group mb-3">
+            <span className="input-group-text" id="basic-addon1">Message</span>
+            <textarea type="message" className='form-control' name="message" placeholder="Your message here..." id="message" />
+          </div>
+          <div className='text-end'>
+            <button className="btn btn-dark" type="submit">Submit</button>
+          </div>
         </form>
       </div>
     </section>
