@@ -16,43 +16,48 @@ export default function Portfolio() {
       github: 'https://github.com/winglovecola/love-link',
       deployed: 'https://love-link.herokuapp.com/',
       image: llImg,
-      tools: 'node.js, express.js, MySQL/sequelize, handlebars, firebase, bcrypt, multer, sharp, bootstrap'
-    }, {
-      name: 'We-The-North',
-      description: 'Basketball App for Stats/Tickets',
-      github: 'https://github.com/Bullspippen/We-The-North',
-      deployed: 'https://john-abou.github.io/We-The-North/',
-      image: weTheNorth,
-      tools: 'node.js, javascript, HTML, Tailwind, CSS'
-    }, {
-      name: 'JATE',
-      description: 'Text editor',
-      github: 'https://github.com/john-abou/text-editor',
-      deployed: 'https://murmuring-dawn-62613.herokuapp.com/',
-      image: jate,
-      tools: 'node.js, webpack, babel, idb, javascript, HTML, CSS,'
-    }, {
-      name: 'Work Scheduler',
-      description: 'Work Scheduler',
-      github: 'https://github.com/john-abou/work-scheduler',
-      deployed: 'https://john-abou.github.io/work-scheduler/',
-      image: workSched,
-      tools: 'javascript, HTML, CSS, dayjs'
-    }, {
-      name: 'Note Taker',
-      description: 'Note Taker',
-      github: 'https://github.com/john-abou/note-taker',
-      deployed: 'https://calm-plains-07753.herokuapp.com/',
-      image: noteTaker,
-      tools: 'node.js, express.js, javascript, HTML, CSS,'
+      tools: 'node.js, express.js, MySQL/sequelize, handlebars, firebase, bcrypt, multer, sharp, bootstrap',
+      type: 'Full Stack'
     }, {
       name: 'Blog Site',
       description: 'Tech Blog',
       github: 'https://github.com/john-abou/weather-app',
       deployed: 'https://john-abou.github.io/weather-app/',
       image: weather,
-      Tools: 'node.js, express.js, handlebars, MySQL/Sequelize, javascript, Bootstrap, HTML, CSS,'
-
+      tools: 'node.js, express.js, handlebars, MySQL/Sequelize, javascript, Bootstrap, HTML, CSS',
+      type: 'Full Stack'
+    }, {
+      name: 'We-The-North',
+      description: 'Basketball App for Stats/Tickets',
+      github: 'https://github.com/Bullspippen/We-The-North',
+      deployed: 'https://john-abou.github.io/We-The-North/',
+      image: weTheNorth,
+      tools: 'node.js, javascript, HTML, Tailwind, CSS',
+      type: 'Front End'
+    }, {
+      name: 'JATE',
+      description: 'Text editor',
+      github: 'https://github.com/john-abou/text-editor',
+      deployed: 'https://murmuring-dawn-62613.herokuapp.com/',
+      image: jate,
+      tools: 'node.js, webpack, babel, idb, javascript, HTML, CSS',
+      type: 'Refactor - Front End'
+    }, {
+      name: 'Work Scheduler',
+      description: 'Work Scheduler',
+      github: 'https://github.com/john-abou/work-scheduler',
+      deployed: 'https://john-abou.github.io/work-scheduler/',
+      image: workSched,
+      tools: 'javascript, HTML, CSS, dayjs',
+      type: 'Refactor - Front End'
+    }, {
+      name: 'Note Taker',
+      description: 'Note Taker',
+      github: 'https://github.com/john-abou/note-taker',
+      deployed: 'https://calm-plains-07753.herokuapp.com/',
+      image: noteTaker,
+      tools: 'node.js, express.js, javascript, HTML, CSS',
+      type: 'Refactor - Front End'
     }
   ];
 

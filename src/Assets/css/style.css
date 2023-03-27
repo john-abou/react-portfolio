@@ -9,18 +9,18 @@ body {
   line-height: 1.5;
   color: #333;
   background-color: #f4f4f4;
-  overflow: hidden;
 }
 
 /* Project Component Styles */
 .project{
-  height: 250px;
+  height: 20rem;
   background: radial-gradient(#6e6e6e,#2f2f2f);
   background: -webkit-radial-gradient(#6e6e6e,#2f2f2f);
   background: -moz-radial-gradient(#6e6e6e,#2f2f2f);
   color: #fff;
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
+  margin: 3rem 1rem 0;
 }
 .project figure {
   position: absolute;
@@ -41,4 +41,10 @@ body {
   -webkit-transform: scale(3);
   -moz-transform: scale(3);
   opacity: 0;
+}
+
+/* About component styling */
+#About {
+  overflow: hidden;
+  padding: 3rem 0;
 }
