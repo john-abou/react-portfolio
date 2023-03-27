@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/react-portfolio/static/js/main.f6667203.js",
-    "static/media/pp.jpeg": "/react-portfolio/static/media/pp.03502497012e4118e8e7.jpeg",
+    "main.css": "/react-portfolio/static/css/main.280bcecc.css",
+    "main.js": "/react-portfolio/static/js/main.b05496b8.js",
+    "static/media/john.png": "/react-portfolio/static/media/john.0358dce25f53734eefd6.png",
     "static/media/we-the-north-3.png": "/react-portfolio/static/media/we-the-north-3.05d264121105624c54d4.png",
     "static/media/lovelink.jpeg": "/react-portfolio/static/media/lovelink.e136286335fcbbdbb9e4.jpeg",
     "static/media/work-scheduler-2.png": "/react-portfolio/static/media/work-scheduler-2.edbeb11a866c90f48b1a.png",
@@ -10,11 +10,11 @@
     "static/media/jate.png": "/react-portfolio/static/media/jate.cffca61a16dbd0500765.png",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.ba12434c260eacc81647.png",
     "index.html": "/react-portfolio/index.html",
-    "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
-    "main.f6667203.js.map": "/react-portfolio/static/js/main.f6667203.js.map"
+    "main.280bcecc.css.map": "/react-portfolio/static/css/main.280bcecc.css.map",
+    "main.b05496b8.js.map": "/react-portfolio/static/js/main.b05496b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.f6667203.js"
+    "static/css/main.280bcecc.css",
+    "static/js/main.b05496b8.js"
   ]
 }
