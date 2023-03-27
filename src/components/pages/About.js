@@ -2,26 +2,12 @@ import React from 'react';
 import photo from '../../assets/images/john.png'
 
 export default function About() {
-  const style = {
-    photo: {
-      "width": "140%",
-      "margin": "0 0 0 -20%",
-      "borderRadius": "50%",
-      'overflow': 'hidden'
-    },
-    about: {
-      "margin": "20%  10%",
-      "fontSize": "1.2rem",
-      "lineHeight": "1.5rem",
-      "textAlign": "justify"
-    }
-  }
 
   return (
     <div className='container-fluid'>
-      <section id="About" className='row vh-100'>
+      <section id="about" className='row vh-100'>
         <div className='col-md-6 col-sm-12 mh-100'>
-          <article style={style.about}>
+          <article className="about-text">
             <h1 className='mb-5'>Welcome!</h1>
             <p >
               My name is John Abounassar, and I'm a Fullstack Web Developer with a passion for creating exceptional user experiences through UI/UX design. With a background in data science and a degree in engineering, I bring a unique set of skills and knowledge to every project I work on.
@@ -37,7 +23,7 @@ export default function About() {
         </div>
         <div className='col-md-6 col-sm-12 mh-100'>
           <aside>
-            {<img src={photo} style={style.photo} alt="My face" />}
+            {<img src={photo} className="about-photo" alt="My face" />}
           </aside>
         </div>
       </section>
