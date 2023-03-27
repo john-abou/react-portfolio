@@ -1,25 +1,30 @@
 import React from 'react';
-import photo from '../../Assets/images/john.png'
+import photo from '../../assets/images/john.png'
 
 export default function About() {
   const style = {
     photo: {
       "width": "140%",
       "margin": "0 0 0 -20%",
+      "borderRadius": "50%",
+      'overflow': 'hidden'
     },
     about: {
       "margin": "20%  10%",
+      "fontSize": "1.2rem",
+      "lineHeight": "1.5rem",
+      "textAlign": "justify"
     }
   }
 
   return (
     <div className='container-fluid'>
-      <section id="About" className='row'>
-        <div className='col-md-6 col-sm-12'>
+      <section id="About" className='row vh-100'>
+        <div className='col-md-6 col-sm-12 mh-100'>
           <article style={style.about}>
-            <h1 className='mb-5'>About Me</h1>
+            <h1 className='mb-5'>Welcome!</h1>
             <p >
-              Welcome to my portfolio website! My name is John Abounassar, and I'm a Fullstack Web Developer with a passion for creating exceptional user experiences through UI/UX design. With a background in data science and a degree in engineering, I bring a unique set of skills and knowledge to every project I work on.
+              My name is John Abounassar, and I'm a Fullstack Web Developer with a passion for creating exceptional user experiences through UI/UX design. With a background in data science and a degree in engineering, I bring a unique set of skills and knowledge to every project I work on.
               My expertise includes Javascript, HTML, CSS, Node.js, MySQL, MongoDB, Express.js, and React.js, and I'm constantly expanding my knowledge and exploring new technologies. I've contributed to several successful projects, including LoveLink, a full-stack dating application, and WeTheNorth, a front-end application that uses the balldontlie and SeatGeek API to display NBA game information. 
             </p>
             <p>
@@ -30,7 +35,7 @@ export default function About() {
             </p>
           </article>
         </div>
-        <div className='col-md-6 col-sm-12'>
+        <div className='col-md-6 col-sm-12 mh-100'>
           <aside>
             {<img src={photo} style={style.photo} alt="My face" />}
           </aside>
