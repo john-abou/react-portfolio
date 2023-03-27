@@ -6,8 +6,8 @@ export default function Resume() {
     <div className='my-5 text-center'>
       <a 
       className='fs-3'
-      href='john-a-resume.pdf'
-      download
+      href='../../Assets/john-resume.pdf'
+      download = "John-Abounassar-Resume.pdf"
       >
         Resume
       </a>

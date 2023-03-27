@@ -1,11 +1,11 @@
 import React from 'react';
 import Project from '../Project';
-import llImg from '../../images/lovelink.jpeg';
-import weather from '../../images/weather-app.png';
-import workSched from '../../images/work-scheduler-2.png';
-import weTheNorth from '../../images/we-the-north-3.png';
-import noteTaker from '../../images/note-taker.png'
-import jate from '../../images/jate.png';
+import llImg from '../../Assets/images/lovelink.jpeg';
+import weather from '../../Assets/images/weather-app.png';
+import workSched from '../../Assets/images/work-scheduler-2.png';
+import weTheNorth from '../../Assets/images/we-the-north-3.png';
+import noteTaker from '../../Assets/images/note-taker.png'
+import jate from '../../Assets/images/jate.png';
 
 export default function Portfolio() {
   
