@@ -6,6 +6,7 @@ import workSched from '../../assets/images/work-scheduler-2.png';
 import weTheNorth from '../../assets/images/we-the-north-3.png';
 import noteTaker from '../../assets/images/note-taker.png'
 import jate from '../../assets/images/jate.png';
+import ecomm from '../../assets/images/ecomm.png';
 
 export default function Portfolio() {
   
@@ -47,7 +48,7 @@ export default function Portfolio() {
       description: 'Fullstak Ecomm website',
       github: 'https://github.com/john-abou/smart-savings',
       deployed: 'https://puppeteers-bazaar.herokuapp.com/',
-      image: workSched,
+      image: ecomm,
       tools: 'React, GraphQL, Apollo, Express.js, MongoDB, Stripe, Heroku, Bootstrap, CSS, HTML',
       type: 'Refactor - Front End'
     }, {
