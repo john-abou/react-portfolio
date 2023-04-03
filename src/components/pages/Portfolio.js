@@ -43,12 +43,12 @@ export default function Portfolio() {
       tools: 'node.js, webpack, babel, idb, javascript, HTML, CSS',
       type: 'Refactor - Front End'
     }, {
-      name: 'Work Scheduler',
-      description: 'Work Scheduler',
-      github: 'https://github.com/john-abou/work-scheduler',
-      deployed: 'https://john-abou.github.io/work-scheduler/',
+      name: 'Puppeteers Bazaar',
+      description: 'Fullstak Ecomm website',
+      github: 'https://github.com/john-abou/smart-savings',
+      deployed: 'https://puppeteers-bazaar.herokuapp.com/',
       image: workSched,
-      tools: 'javascript, HTML, CSS, dayjs',
+      tools: 'React, GraphQL, Apollo, Express.js, MongoDB, Stripe, Heroku, Bootstrap, CSS, HTML',
       type: 'Refactor - Front End'
     }, {
       name: 'Note Taker',
