@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ce0e6999.css",
-    "main.js": "/react-portfolio/static/js/main.8c0e73f2.js",
+    "main.css": "/react-portfolio/static/css/main.c2cab247.css",
+    "main.js": "/react-portfolio/static/js/main.aa5a99a1.js",
+    "static/media/ecomm.png": "/react-portfolio/static/media/ecomm.c6319ba3fd2035e68711.png",
     "static/media/john.png": "/react-portfolio/static/media/john.0358dce25f53734eefd6.png",
     "static/media/we-the-north-3.png": "/react-portfolio/static/media/we-the-north-3.05d264121105624c54d4.png",
     "static/media/lovelink.jpeg": "/react-portfolio/static/media/lovelink.e136286335fcbbdbb9e4.jpeg",
@@ -10,11 +11,11 @@
     "static/media/jate.png": "/react-portfolio/static/media/jate.cffca61a16dbd0500765.png",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.ba12434c260eacc81647.png",
     "index.html": "/react-portfolio/index.html",
-    "main.ce0e6999.css.map": "/react-portfolio/static/css/main.ce0e6999.css.map",
-    "main.8c0e73f2.js.map": "/react-portfolio/static/js/main.8c0e73f2.js.map"
+    "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
+    "main.aa5a99a1.js.map": "/react-portfolio/static/js/main.aa5a99a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce0e6999.css",
-    "static/js/main.8c0e73f2.js"
+    "static/css/main.c2cab247.css",
+    "static/js/main.aa5a99a1.js"
   ]
 }
