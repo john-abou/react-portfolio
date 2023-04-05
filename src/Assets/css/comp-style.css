@@ -11,9 +11,17 @@ body {
   background-color: #f4f4f4;
 }
 
+/* Portfolio Container Styles */
+#portfolio {
+  width: 90vh;
+  height: 80vh;
+  overflow: hidden;
+}
+
 /* Project Component Styles */
 .project{
-  height: 20rem;
+  height: 250px;
+  max-width: 480px;
   background: radial-gradient(#6e6e6e,#2f2f2f);
   background: -webkit-radial-gradient(#6e6e6e,#2f2f2f);
   background: -moz-radial-gradient(#6e6e6e,#2f2f2f);

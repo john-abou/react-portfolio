@@ -6,7 +6,7 @@ export default function Project( props ) {
     <div className='container'>
       <div className='row w-100 align-items-center justify-content-center'>
           {props.data.map( (project, index) => (
-            <div className='col-12 col-md-6 col-lg-4' key={index}>
+            <div className='col-12 col-md-6 col-lg-6' key={index}>
               <div className='project'>
                     <figure>
                         <h3>{project.name}</h3>

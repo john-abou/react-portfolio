@@ -2,8 +2,7 @@ import React from 'react';
 import Project from '../Project';
 import llImg from '../../assets/images/lovelink.jpeg';
 import weather from '../../assets/images/weather-app.png';
-import workSched from '../../assets/images/work-scheduler-2.png';
-import weTheNorth from '../../assets/images/we-the-north-3.png';
+import weTheNorth from '../../assets/images/we-the-north.png';
 import noteTaker from '../../assets/images/note-taker.png'
 import jate from '../../assets/images/jate.png';
 import ecomm from '../../assets/images/ecomm.png';
