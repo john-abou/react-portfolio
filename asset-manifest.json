@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/react-portfolio/static/js/main.aa5a99a1.js",
-    "static/media/ecomm.png": "/react-portfolio/static/media/ecomm.c6319ba3fd2035e68711.png",
+    "main.css": "/react-portfolio/static/css/main.f2efba5b.css",
+    "main.js": "/react-portfolio/static/js/main.c5445dfd.js",
+    "static/media/lovelink.png": "/react-portfolio/static/media/lovelink.035bac2f15b049601edd.png",
+    "static/media/we-the-north.png": "/react-portfolio/static/media/we-the-north.a938aed967e8643b0fe6.png",
     "static/media/john.png": "/react-portfolio/static/media/john.0358dce25f53734eefd6.png",
-    "static/media/we-the-north-3.png": "/react-portfolio/static/media/we-the-north-3.05d264121105624c54d4.png",
-    "static/media/lovelink.jpeg": "/react-portfolio/static/media/lovelink.e136286335fcbbdbb9e4.jpeg",
-    "static/media/work-scheduler-2.png": "/react-portfolio/static/media/work-scheduler-2.edbeb11a866c90f48b1a.png",
-    "static/media/weather-app.png": "/react-portfolio/static/media/weather-app.bad612fb7ebf93e10f97.png",
+    "static/media/bazaar.png": "/react-portfolio/static/media/bazaar.16a6b2ac6579ee876c97.png",
+    "static/media/weather-app.png": "/react-portfolio/static/media/weather-app.2a7e31f3ef02c13ac7e2.png",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.a2d9df1eb3b152093c81.png",
     "static/media/jate.png": "/react-portfolio/static/media/jate.cffca61a16dbd0500765.png",
-    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.ba12434c260eacc81647.png",
     "index.html": "/react-portfolio/index.html",
-    "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
-    "main.aa5a99a1.js.map": "/react-portfolio/static/js/main.aa5a99a1.js.map"
+    "main.f2efba5b.css.map": "/react-portfolio/static/css/main.f2efba5b.css.map",
+    "main.c5445dfd.js.map": "/react-portfolio/static/js/main.c5445dfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.aa5a99a1.js"
+    "static/css/main.f2efba5b.css",
+    "static/js/main.c5445dfd.js"
   ]
 }
