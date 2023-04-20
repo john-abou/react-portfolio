@@ -2,16 +2,14 @@ import React from "react";
 
 export default function Navbar({ currentPage, hanglePageChange }) {
   return (
-    <nav className="row w-100 navbar navbar-dark bg-dark m-0">
+    <nav className="row w-100 navbar navbar-dark bg-dark m-0" style={{height: '70px'}}>
 
       <div className="col-5 text-light ms-5">
         <h1>John Abounassar</h1>
       </div>
 
       <div className="col-5">
-
         <ul className="navbar-nav d-flex flex-row justify-content-end me-5">
-
           <li className='nav-item mx-2'>
             <a 
               href="#about"
@@ -48,7 +46,6 @@ export default function Navbar({ currentPage, hanglePageChange }) {
                 Contact
             </a>
           </li>
-
         </ul>
       </div>
     </nav>

@@ -27,9 +27,11 @@ export default function App() {
   };
 
   return (
-    <main className='h-100 w-100 d-inline-block bg-gray'>
+    <main className='app-container'>
       <Navbar currentPage={ currentPage } hanglePageChange={ pageChange } />
-      { renderPage() }
+      <div className='content-container'>
+        { renderPage() }
+      </div>
       <Footer />
     </main>
   );

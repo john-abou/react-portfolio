@@ -10,16 +10,43 @@ body {
   color: #333;
   background-color: #f4f4f4;
 }
+.app-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.content-container {
+  position: absolute;
+  top: 70px; /* height of the navbar */
+  bottom: 80px; /* height of the footer */
+  margin-left: calc(100vw - 100%); /* width of the scrollbar */
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+}
+
+/* Footer Styles */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+footer div a {
+  margin: 0 3rem;
+}
 
 /* Portfolio Page Styles */
 .project-container {
   position: relative;
   width: 450px;
-  margin: 4rem 3rem 2rem;
+  margin: 3rem 2rem 1rem;
 }
 .img {
-  height: 250px;
-  width: 450px;
+  max-height: 250px;
+  max-width: 450px;
+  width: 100%;
+  object-fit: fill;
 }
 .project {
   position: absolute;
@@ -30,8 +57,9 @@ body {
   opacity: .9;
 }
 .fade-effect {
-  height: 250px;
-  width: 450px;
+  max-height: 250px;
+  max-width: 450px;
+  width: 100%;
   margin: 0;
   top: 0;
   background-color: whitesmoke;
@@ -57,4 +85,52 @@ body {
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-align: justify;
+}
+
+
+
+
+/* Breakpoints */
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .project-container {
+    margin: 3rem 2rem 1rem;
+  }
+  .img {
+    max-height: 200px;
+    max-width: 350px;
+  }
+  .fade-effect {
+    max-height: 200px;
+    max-width: 350px;
+  }
+  .about-photo {
+    margin: 0 0 0 -10%;
+    width: 120%;
+  }
+  .about-text {
+    margin: 5% 5%;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .project-container {
+    margin: 3rem 1rem 1rem;
+  }
+  .img {
+    max-height: 200px;
+    max-width: 350px;
+  }
+  .fade-effect {
+    max-height: 200px;
+    max-width: 350px;
+  }
+  .about-photo {
+    margin: 0 0 0 -10%;
+    width: 120%;
+  }
+  .about-text {
+    margin: 5% 5%;
+  }
 }
