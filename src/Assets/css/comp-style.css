@@ -19,7 +19,7 @@ body {
   position: absolute;
   top: 70px; /* height of the navbar */
   bottom: 80px; /* height of the footer */
-  margin-left: calc(100vw - 100%); /* width of the scrollbar */
+  margin-left: calc(100vw - 100%); /* width of the scrollbar -- added to make sure the content is centered */
   left: 0;
   right: 0;
   overflow-y: auto;
@@ -38,12 +38,13 @@ footer div a {
 
 /* Portfolio Page Styles */
 .project-container {
+  display: flex;
   position: relative;
   width: 450px;
   margin: 3rem 2rem 1rem;
 }
 .img {
-  max-height: 250px;
+  max-height: 220px;
   max-width: 450px;
   width: 100%;
   object-fit: fill;
@@ -57,6 +58,7 @@ footer div a {
   opacity: .9;
 }
 .fade-effect {
+  flex: 1;
   max-height: 250px;
   max-width: 450px;
   width: 100%;
