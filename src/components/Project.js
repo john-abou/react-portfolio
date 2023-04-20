@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function Project( props ) {
   
-  return (
-    <div className='container'>
+  return (  
+    <div className='container-fluid'>
       <div className='row w-100 align-items-center justify-content-center'>
           {props.data.map( (project, index) => (
-            <div className='col-12 col-md-6 col-lg-6' key={index}>
-              <div className='project'>
+            <div className='col-12 col-md-6 col-lg-4 project-container' key={index}>
+              <img src={project.image} className="img" alt={project.description}/>
+              <div className='project fade-effect'>
                     <figure>
                         <h3>{project.name}</h3>
                         <p>{project.type}</p>
@@ -15,11 +16,10 @@ export default function Project( props ) {
                         <a href={project.github} className="btn" type="button">Github</a>
                         <a href={project.deployed} className="btn" type="button">Live Site</a>
                     </figure>
-                    <img src={project.image} className="img-responsive"/>
                 </div>
             </div>
           ))}
       </div>
-      </div>
+    </div>
   )
 }
