@@ -17,19 +17,19 @@ export default function Portfolio() {
       deployed: 'https://puppeteers-bazaar.herokuapp.com/',
       image: bazaar,
       tools: 'React, GraphQL, Apollo, Express.js, MongoDB, Stripe, Heroku, Bootstrap, CSS, HTML',
-      type: 'Refactor - Front End'
+      type: 'Full Stack'
     }, {
       name: 'Weather',
-      description: 'App for a detailed forecast of the weather',
+      description: 'Frontend Weather App',
       github: 'https://github.com/john-abou/weather-app',
       deployed: 'https://john-abou.github.io/weather-app/',
       image: weather,
       tools: 'node.js, express.js, javascript, HTML, CSS',
-      type: 'Refactor - Front End'
+      type: 'Full Stack'
     },
     {
       name: 'LoveLink',
-      description: 'Lovelink - Dating App',
+      description: 'Fullstack Dating App',
       github: 'https://github.com/winglovecola/love-link',
       deployed: 'https://love-link.herokuapp.com/',
       image: llImg,
@@ -37,7 +37,7 @@ export default function Portfolio() {
       type: 'Full Stack'
     }, {
       name: 'We-The-North',
-      description: 'Basketball App for Stats/Tickets',
+      description: 'Frontend NBA App',
       github: 'https://github.com/Bullspippen/We-The-North',
       deployed: 'https://john-abou.github.io/We-The-North/',
       image: weTheNorth,
@@ -53,12 +53,12 @@ export default function Portfolio() {
       type: 'Full Stack'
     }, {
       name: 'JATE',
-      description: 'Text editor',
+      description: 'Refactor -- IDB Storage for Text editor',
       github: 'https://github.com/john-abou/text-editor',
       deployed: 'https://murmuring-dawn-62613.herokuapp.com/',
       image: jate,
       tools: 'node.js, webpack, babel, idb, javascript, HTML, CSS',
-      type: 'Refactor - Front End'
+      type: 'Refactor'
     }
   ];
 
