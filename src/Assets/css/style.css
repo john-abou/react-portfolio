@@ -39,14 +39,13 @@ footer div a {
 /* Portfolio Page Styles */
 .project-container {
   position: relative;
-  width: 80%;
-  height: 70%;
+  width: 90%;
+  height: 90%;
   margin: 3rem auto 1rem;
 }
 .img {
-  width: 90%;
-  height: 90%;
   width: 100%;
+  height: 100%;
   object-fit: fill;
 }
 .project {
@@ -88,21 +87,12 @@ footer div a {
 }
 
 
-
-
 /* Breakpoints */
 /* Tablet */
 @media screen and (max-width: 768px) {
   .project-container {
-    margin: 3rem 2rem 1rem;
-  }
-  .img {
-    max-height: 200px;
-    max-width: 350px;
-  }
-  .fade-effect {
-    max-height: 200px;
-    max-width: 350px;
+    width: 95%;
+    height: 95%;
   }
   .about-photo {
     margin: 0 0 0 -10%;
@@ -115,17 +105,6 @@ footer div a {
 
 /* Mobile */
 @media screen and (max-width: 576px) {
-  .project-container {
-    margin: 3rem 1rem 1rem;
-  }
-  .img {
-    max-height: 200px;
-    max-width: 350px;
-  }
-  .fade-effect {
-    max-height: 200px;
-    max-width: 350px;
-  }
   .about-photo {
     margin: 0 0 0 -10%;
     width: 120%;

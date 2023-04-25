@@ -12,7 +12,7 @@ export default function Portfolio() {
   const projects = [
     {
       name: 'Puppeteers Bazaar',
-      description: 'Fullstak Ecomm website',
+      description: 'Full Stack Ecommerce Website',
       github: 'https://github.com/john-abou/smart-savings',
       deployed: 'https://puppeteers-bazaar.herokuapp.com/',
       image: bazaar,
@@ -20,7 +20,7 @@ export default function Portfolio() {
       type: 'Full Stack'
     }, {
       name: 'Weather',
-      description: 'Frontend Weather App',
+      description: 'Front-end Weather App',
       github: 'https://github.com/john-abou/weather-app',
       deployed: 'https://john-abou.github.io/weather-app/',
       image: weather,
@@ -29,7 +29,7 @@ export default function Portfolio() {
     },
     {
       name: 'LoveLink',
-      description: 'Fullstack Dating App',
+      description: 'Full Stack Dating App',
       github: 'https://github.com/winglovecola/love-link',
       deployed: 'https://love-link.herokuapp.com/',
       image: llImg,
@@ -44,8 +44,8 @@ export default function Portfolio() {
       tools: 'node.js, javascript, HTML, Tailwind, CSS',
       type: 'Front End'
     }, {
-      name: 'Blog Site',
-      description: 'Tech Blog',
+      name: 'Tech-Blog',
+      description: 'Full Stack Blog Website',
       github: 'https://github.com/john-abou/tech-blog',
       deployed: 'https://johns-blogsite.herokuapp.com/',
       image: techBlog,
