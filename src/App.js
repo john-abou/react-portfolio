@@ -29,10 +29,13 @@ export default function App() {
   return (
     <main className='app-container'>
       <Navbar currentPage={ currentPage } hanglePageChange={ pageChange } />
-      <div className='content-container'>
-        { renderPage() }
-      </div>
+      {/* <div className='content-container'> */}
+      <About />
+      <Portfolio />
+      <Resume />
+      <Contact />
       <Footer />
+      {/* </div> */}
     </main>
   );
 }

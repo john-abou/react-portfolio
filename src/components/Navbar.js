@@ -12,7 +12,7 @@ export default function Navbar({ currentPage, hanglePageChange }) {
         <ul className="navbar-nav d-flex flex-row justify-content-end me-5">
           <li className='nav-item mx-2'>
             <a 
-              href="#about"
+              href="#About"
               onClick={() => hanglePageChange('About')}
               className={ currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >
@@ -21,7 +21,7 @@ export default function Navbar({ currentPage, hanglePageChange }) {
           </li>
           <li className='nav-item mx-2'>
             <a 
-              href="#portfolio"
+              href="#Portfolio"
               onClick={() => hanglePageChange('Portfolio')}
               className={ currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
             >
@@ -30,8 +30,8 @@ export default function Navbar({ currentPage, hanglePageChange }) {
           </li>
           <li className='nav-item mx-2'>
             <a 
-              href="#resume"
-              onClick={() => hanglePageChange('Resume')}
+              href="#Resume"
+              // onClick={() => hanglePageChange('Resume')}
               className={ currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
             >
                 Resume
@@ -39,7 +39,7 @@ export default function Navbar({ currentPage, hanglePageChange }) {
           </li>
           <li className='nav-item mx-2'>
             <a 
-              href="#contact"
+              href="#Contact"
               onClick={() => hanglePageChange('Contact')}
               className={ currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
             >

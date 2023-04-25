@@ -8,12 +8,11 @@ body {
   font-size: 1.2 rem;
   line-height: 1.5;
   color: #333;
-  background-color: #f4f4f4;
 }
 .app-container {
   position: relative;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 .content-container {
   position: absolute;
@@ -27,8 +26,7 @@ body {
 
 /* Footer Styles */
 footer {
-  position: absolute;
-  bottom: 0;
+  position: relative;
   width: 100%;
   height: 80px;
 }
@@ -38,6 +36,7 @@ footer div a {
 
 /* Portfolio Page Styles */
 .project-container {
+  background-color: #f4f4f4;
   position: relative;
   width: 90%;
   height: 90%;
@@ -72,6 +71,8 @@ footer div a {
 /* About Page styling */
 #about {
   overflow: hidden;
+  height: 90%;
+  background-color: #FFFFFF;
 }
 .about-photo {
   margin: 0 0 0 -20%;
