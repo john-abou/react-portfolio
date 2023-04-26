@@ -6,6 +6,9 @@ export default function Project( props ) {
   return (  
     <div className='container-fluid'>
       <div className='row align-items-center justify-content-center'>
+        <div className='text-center mt-5'>
+          <h1 className='project-header'>Projects</h1>  
+        </div>
         <Carousel>
           {props.data.map( (project, index) => (
             <Carousel.Item key={index}>

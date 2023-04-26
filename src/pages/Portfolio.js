@@ -6,6 +6,7 @@ import weTheNorth from '../assets/images/we-the-north.png';
 import techBlog from '../assets/images/tech-blog.png'
 import jate from '../assets/images/JATE.png';
 import bazaar from '../assets/images/bazaar.png';
+import TechStack from '../components/TechStack';
 
 export default function Portfolio() {
   
@@ -65,6 +66,7 @@ export default function Portfolio() {
   return (
     <section id="Portfolio">
       <Project data={projects} />
+      <TechStack />
     </section>
   );
 }

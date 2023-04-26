@@ -5,6 +5,7 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import TechStack from './components/TechStack';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -34,6 +35,7 @@ export default function App() {
       <Portfolio />
       <Resume />
       <Contact />
+      <TechStack />
       <Footer />
       {/* </div> */}
     </main>
