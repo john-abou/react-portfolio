@@ -108,8 +108,8 @@ body {
 .icon-container{
   overflow-x: auto;
   height: 120px;
-  width: 95%;
-  margin: 0 0 3%;
+  width: 85%;
+  margin: 0 5% 3%;
 }
 .icon {
   height: 75px;
