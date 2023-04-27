@@ -5,7 +5,7 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-import TechStack from './components/TechStack';
+import History from './pages/History';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -30,14 +30,12 @@ export default function App() {
   return (
     <main className='app-container'>
       <Navbar currentPage={ currentPage } hanglePageChange={ pageChange } />
-      {/* <div className='content-container'> */}
       <About />
       <Portfolio />
       <Resume />
+      <History />
       <Contact />
-      <TechStack />
       <Footer />
-      {/* </div> */}
     </main>
   );
 }
