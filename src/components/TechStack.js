@@ -4,7 +4,7 @@ import { Tooltip } from 'react-tooltip'
 
 
 export default function TechStack() {
-  console.log(skills[0].tooltip)
+  console.log(skills.length)
   return (
     <div>
       <div className='text-center'>
