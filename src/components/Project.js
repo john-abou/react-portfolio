@@ -1,15 +1,17 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
+
 
 export default function Project( props ) {
   
   return (  
     <div className='container-fluid'>
       <div className='row align-items-center justify-content-center'>
-        <div className='text-center mt-5'>
-          <h1 className='project-header'>Projects</h1>  
-        </div>
-        <Carousel>
+        <Carousel
+          nextIcon={<BsChevronRight />}
+          prevIcon={<BsChevronLeft />}
+        >
           {props.data.map( (project, index) => (
             <Carousel.Item key={index}>
               <div className='col-12 project-container' key={index}>
