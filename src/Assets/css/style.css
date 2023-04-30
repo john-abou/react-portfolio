@@ -27,36 +27,48 @@ body {
 /* About Page styling */
 #about {
   overflow: hidden;
-  height: 700px;
+  height: 650px;
   background-color: #d3d3d3;
-}
-.about-photo {
-  margin: 0 0 0 -20%;
-  border-radius: 50%;
-  width: 140%;
-}
-.about-text {
-  margin: 15% 10%;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  text-align: justify;
-}
-.about-description {
-  margin: 0 0 0 8%;
 }
 .about-header {
   font-size: 4rem;
   font-weight: bold;
-  margin: 10% 0 10% 0;
+  margin: 10% 0 0 0;
   text-align: 'left';
 }
+.about-name {
+  margin: 0 0 8% 0%;
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: 'left';
+}
+.about-photo {
+  margin-top: 5%;
+  border-radius: 50%;
+  width: 130%;
+}
+.about-text {
+  margin-right: 0%;
+  margin-left: 10%;
+  font-size: 1.1rem;
+  line-height: 1.25rem;
+  text-align: left;
+}
+.about-description {
+  font-size: 2rem;
+  margin: 0 0 0 8%;
+}
 .skill-one{
+  font-size: 1.5rem;
   margin: 5% 0 0 15%;
 }
 .skill-two{
+  font-size: 1.5rem;
   margin: 5% 0 0 30%;
 }
 .skill-three{
+  font-size: 1.5rem;
   margin: 5% 0 0 45%;
 }
 
@@ -159,6 +171,7 @@ body {
   border-color: #2a3035 transparent transparent;
   border-width: 10px;
 }
+
 /* Define the animation */
 @keyframes scroll {
   0% {
@@ -181,28 +194,89 @@ footer div a {
 }
 
 /* Breakpoints */
-/* Tablet */
-@media screen and (max-width: 768px) {
-  .project-container {
-    width: 95%;
-    height: 95%;
+/* Desktop */
+@media screen and (max-width: 1200px) {
+  /* About Page */
+  .about-photo {
+    width: 140%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  /* About Page */
+  #about {
+    height: 500px;
   }
   .about-photo {
-    margin: 0 0 0 -10%;
-    width: 120%;
+    width: 160%;
   }
-  .about-text {
+  .about-header{
+    font-size: 3.5rem;
+  }
+  .about-name {
+    font-size: 2.5rem;
+  }
+  .about-description {
+    margin-right: 0;
+    margin-left: 5%;
+    font-size: 1.5rem;
+  }
+  .skill-one, .skill-two, .skill-three {
+    font-size: 1.25rem;
+    margin: 5% 0 0 10%;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 776px) {
+  /* About Page */
+  #about {
+    height: 800px;
+  }
+  .about-text{
     margin: 5% 5%;
+  }
+  .about-photo {
+    width: 150%;
+    margin-top: 0;
+  }
+  .about-header {
+    font-size: 2.75rem;
+  }
+  .about-name {
+    font-size: 2rem;
+    margin: 0 0 3% 0;
+  }
+  .about-description {
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+  .skill-one, .skill-two, .skill-three {
+    font-size: 1.25rem;
+    margin: 2% 0 0 10%;
   }
 }
 
 /* Mobile */
 @media screen and (max-width: 576px) {
-  .about-photo {
-    margin: 0 0 0 -10%;
-    width: 120%;
+  /* About Page */
+  #about {
+    height: 650px;
   }
-  .about-text {
-    margin: 5% 5%;
+  .about-header{
+    font-size: 2.25rem;
+    text-align: center;
+  }
+  .about-name {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  .about-description {
+    font-size: 1.25rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  .skill-one, .skill-two, .skill-three {
+    font-size: 1rem;
+    margin-left: 0;
   }
 }
