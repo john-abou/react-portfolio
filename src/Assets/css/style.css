@@ -144,3 +144,93 @@ footer div a {
     margin: 5% 5%;
   }
 }
+
+
+
+/* Breakpoints */
+/* Desktop */
+@media screen and (max-width: 1200px) {
+  /* About Page */
+  .about-photo {
+    width: 140%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  /* About Page */
+  #about {
+    height: 500px;
+  }
+  .about-photo {
+    width: 160%;
+  }
+  .about-header{
+    font-size: 3.5rem;
+  }
+  .about-name {
+    font-size: 2.5rem;
+  }
+  .about-description {
+    margin-right: 0;
+    margin-left: 5%;
+    font-size: 1.5rem;
+  }
+  .skill-one, .skill-two, .skill-three {
+    font-size: 1.25rem;
+    margin: 5% 0 0 10%;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 776px) {
+  /* About Page */
+  #about {
+    height: 800px;
+  }
+  .about-text{
+    margin: 5% 5%;
+  }
+  .about-photo {
+    width: 150%;
+    margin-top: 0;
+  }
+  .about-header {
+    font-size: 2.75rem;
+  }
+  .about-name {
+    font-size: 2rem;
+    margin: 0 0 3% 0;
+  }
+  .about-description {
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+  .skill-one, .skill-two, .skill-three {
+    font-size: 1.25rem;
+    margin: 2% 0 0 10%;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  /* About Page */
+  #about {
+    height: 650px;
+  }
+  .about-header{
+    font-size: 2.25rem;
+    text-align: center;
+  }
+  .about-name {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  .about-description {
+    font-size: 1.25rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  .skill-one, .skill-two, .skill-three {
+    font-size: 1rem;
+    margin-left: 0;
+  }
+}
