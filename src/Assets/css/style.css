@@ -28,6 +28,7 @@ body {
 /* Footer Styles */
 footer {
   position: absolute;
+  background-color: #d3d3d3;
   bottom: 0;
   width: 100%;
   height: 80px;
@@ -39,7 +40,7 @@ footer div a {
 /* Portfolio Page Styles */
 .project-container {
   position: relative;
-  width: 90%;
+  width: 80%;
   height: 90%;
   margin: 3rem auto 1rem;
 }
@@ -72,7 +73,7 @@ footer div a {
 /* About Page styling */
 #about {
   overflow: hidden;
-  height: 650px;
+  height: calc(100vh - 150px);
   background-color: #d3d3d3;
 }
 .about-header {
@@ -119,35 +120,6 @@ footer div a {
 
 
 /* Breakpoints */
-/* Tablet */
-@media screen and (max-width: 768px) {
-  .project-container {
-    width: 95%;
-    height: 95%;
-  }
-  .about-photo {
-    margin: 0 0 0 -10%;
-    width: 120%;
-  }
-  .about-text {
-    margin: 5% 5%;
-  }
-}
-
-/* Mobile */
-@media screen and (max-width: 576px) {
-  .about-photo {
-    margin: 0 0 0 -10%;
-    width: 120%;
-  }
-  .about-text {
-    margin: 5% 5%;
-  }
-}
-
-
-
-/* Breakpoints */
 /* Desktop */
 @media screen and (max-width: 1200px) {
   /* About Page */
@@ -157,9 +129,6 @@ footer div a {
 }
 @media screen and (max-width: 1000px) {
   /* About Page */
-  #about {
-    height: 500px;
-  }
   .about-photo {
     width: 160%;
   }
@@ -182,6 +151,12 @@ footer div a {
 
 /* Tablet */
 @media screen and (max-width: 776px) {
+  /* Portfolio Page */
+  .project-container {
+    width: 95%;
+    height: 95%;
+  }
+
   /* About Page */
   #about {
     height: 800px;
@@ -214,7 +189,7 @@ footer div a {
 @media screen and (max-width: 576px) {
   /* About Page */
   #about {
-    height: 650px;
+    height: 90%;
   }
   .about-header{
     font-size: 2.25rem;
