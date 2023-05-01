@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import photo from '../assets/images/john.png'
+import photo from '../assets/images/john3.png'
 import LaptopIcon from '@material-ui/icons/Laptop';
 import SmartphoneIcon from '@material-ui/icons/Smartphone';
 import CheckBoxIcon from '@material-ui/icons/CheckBox';
@@ -26,7 +26,7 @@ export default function About() {
           </article>
         </div>
         <div className='col-md-6 col-sm-12'>
-          <aside className='d-flex flex-column justify-content-center'>
+          <aside className='about-photo-container'>
             {<img src={photo} className="about-photo" alt="My face" />}
           </aside>
         </div>
