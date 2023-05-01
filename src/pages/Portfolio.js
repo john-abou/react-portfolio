@@ -6,10 +6,8 @@ import weTheNorth from '../assets/images/we-the-north.png';
 import techBlog from '../assets/images/tech-blog.png'
 import jate from '../assets/images/JATE.png';
 import bazaar from '../assets/images/bazaar.png';
-import TechStack from '../components/TechStack';
 
 export default function Portfolio() {
-  
   const projects = [
     {
       name: 'Puppeteers Bazaar',
@@ -65,8 +63,12 @@ export default function Portfolio() {
 
   return (
     <section id="Portfolio">
-      <Project data={projects} />
-      <TechStack />
+      <h1 className="portfolio-title mt-4">Portfolio</h1>
+      <div className='portfolio-background'>
+        <div className='portfolio-container'>
+          <Project data={projects} />
+        </div>
+      </div>
     </section>
   );
 }

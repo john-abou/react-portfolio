@@ -12,10 +12,6 @@ const skills = [
       tooltip: "JavaScript"
   },
   {
-      imageURL: "https://img.icons8.com/color/100/000000/typescript.png",
-      tooltip: "TypeScript"
-  },
-  {
       imageURL: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-color-tal-revivo.png",
       tooltip: "jQuery"
   },

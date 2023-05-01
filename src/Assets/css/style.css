@@ -28,7 +28,7 @@ body {
 #about {
   overflow: hidden;
   height: 650px;
-  background-color: #d3d3d3;
+  background-color: #f4f4f4;
 }
 .about-header {
   font-size: 4rem;
@@ -85,12 +85,42 @@ body {
   height: auto;
   background-color: #333;
 }
+.portfolio-title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #f4f4f4;
+  text-align: center;
+}
+.portfolio-background {
+  background-position: center;
+  background-image: url('../images/icons.png');
+  background-repeat: repeat;
+  background-size: 97%;
+  padding: 4rem 2.5rem;
+  margin: 1rem 0;
+}
+.portfolio-container {
+  max-height: 900px;
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgba(244, 244, 244, 0.6);
+  border-radius: 15px;
+  border: solid 2px #f3f3f3;
+  border-color: rgba(120, 120, 120, 0.7);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  overflow: auto;
+}
+/* Portfolio -- Project styles */
 .project-container {
   background-color: #f4f4f4;
   position: relative;
-  width: 90%;
+  width: 95%;
   height: 90%;
-  margin: 3rem auto 1rem;
+  max-height: 800px;
+  margin: 2rem auto;
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 .project-header{
   font-size: 4rem;
@@ -191,6 +221,7 @@ footer div a {
   }
   .about-photo {
     width: 300px;
+    margin-bottom: 2rem;
   }
   .about-header {
     font-size: 2.75rem;
@@ -212,6 +243,12 @@ footer div a {
     margin: 2% 0 0 0;
     text-align: center;
   }
+
+  /* Portfolio Page */
+  .portfolio-background{
+    background-image: url('../images/icons-mobile.png');
+    background-size: 100%;
+  }
 }
 
 /* Mobile */
@@ -231,5 +268,19 @@ footer div a {
   }
   .skill-one, .skill-two, .skill-three {
     font-size: 1rem;
+  }
+
+  /* Portfolio Page */
+  .portfolio-background{
+    padding: 2rem 0;
+  }
+  .project h3 {
+    font-size: 1.3rem;
+  }
+  .project p {
+    font-size: .9rem;
+  }
+  .project a {
+    font-size: .8rem;
   }
 }
