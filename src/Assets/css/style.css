@@ -24,6 +24,14 @@ body {
   overflow-y: auto;
 }
 
+/* Navbar styling*/
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
 /* About Page styling */
 #about {
   overflow: hidden;
@@ -90,6 +98,7 @@ body {
   font-weight: 500;
   color: #f4f4f4;
   text-align: center;
+  margin: 5% 0 !important;
 }
 .portfolio-background {
   background-position: center;
@@ -104,10 +113,10 @@ body {
   height: auto;
   width: 90%;
   margin: 0 auto;
-  background-color: rgba(244, 244, 244, 0.6);
+  background-color: rgba(100, 100, 100, 0.6);
   border-radius: 15px;
   border: solid 2px #f3f3f3;
-  border-color: rgba(120, 120, 120, 0.7);
+  border-color: rgba(60, 60, 60, 0.7);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   overflow: auto;
 }
@@ -152,7 +161,7 @@ body {
   background-color: #333;
   opacity: 1;
 }
-/* Portfolio -- Tech Stack styles */
+/* Portfolio -- Tech Stack styles 
 .icon-container {
   display: flex;
   align-items: center;
@@ -164,8 +173,8 @@ body {
   height: 75px;
   margin: 0 1rem;
   animation: scroll 10s linear infinite;
-}
-/* Define the animation */
+} 
+Define the animation
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -173,7 +182,7 @@ body {
   100% {
     transform: translateX(-100%);
   }
-}
+}*/
 
 
 /* Footer Styles */
@@ -215,6 +224,12 @@ footer div a {
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+  /* Navbar */
+  .navbar-container{
+    justify-content: center;
+  }
+
+
   /* About Page */
   .about-text{
     margin: 5% 5%;
@@ -248,6 +263,11 @@ footer div a {
   .portfolio-background{
     background-image: url('../images/icons-mobile.png');
     background-size: 100%;
+  }
+  .project-container {
+    width: 95%;
+    height: 95%;
+    margin: 1rem auto;
   }
 }
 

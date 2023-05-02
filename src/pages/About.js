@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import photo from '../assets/images/john3.png'
+import photo from '../assets/images/john4.png'
 import LaptopIcon from '@material-ui/icons/Laptop';
 import SmartphoneIcon from '@material-ui/icons/Smartphone';
 import CheckBoxIcon from '@material-ui/icons/CheckBox';

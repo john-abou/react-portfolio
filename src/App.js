@@ -32,7 +32,6 @@ export default function App() {
       <Navbar currentPage={ currentPage } hanglePageChange={ pageChange } />
       <About />
       <Portfolio />
-      <Resume />
       <History />
       <Contact />
       <Footer />

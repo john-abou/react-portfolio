@@ -63,7 +63,7 @@ export default function Portfolio() {
 
   return (
     <section id="Portfolio">
-      <h1 className="portfolio-title mt-4">Portfolio</h1>
+      <h1 className="portfolio-title">Portfolio</h1>
       <div className='portfolio-background'>
         <div className='portfolio-container'>
           <Project data={projects} />

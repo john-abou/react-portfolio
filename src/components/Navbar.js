@@ -12,7 +12,7 @@ export default function Navbar({ currentPage, hanglePageChange }) {
     
   return (
     <nav className="row w-100 navbar navbar-dark bg-dark m-0" style={{height: '70px'}}>
-      <div className="navbar-container d-flex flex-row justify-content-between align-items-center">
+      <div className="navbar-container">
       {!isTablet ? (
       <div className="text-light ms-5">
         <h1>John Abounassar</h1>
@@ -27,7 +27,7 @@ export default function Navbar({ currentPage, hanglePageChange }) {
               onClick={() => hanglePageChange('About')}
               className={ currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >
-                About Me
+                Home
             </a>
           </li>
           <li className='nav-item mx-2'>
@@ -41,11 +41,11 @@ export default function Navbar({ currentPage, hanglePageChange }) {
           </li>
           <li className='nav-item mx-2'>
             <a 
-              href="#Resume"
+              href="#History"
               // onClick={() => hanglePageChange('Resume')}
-              className={ currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+              className={ currentPage === 'History' ? 'nav-link active' : 'nav-link'}
             >
-                Resume
+                History
             </a>
           </li>
           <li className='nav-item mx-2'>

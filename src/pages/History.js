@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 export default function History() {
 
   return (
-    <div>
+    <div id='History'>
       <div className='text-center'>
         <h3>History</h3>
       </div>
