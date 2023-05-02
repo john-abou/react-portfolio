@@ -228,7 +228,6 @@ footer div a {
     justify-content: center;
   }
 
-
   /* About Page */
   .about-text{
     margin: 5% 5%;
@@ -268,6 +267,25 @@ footer div a {
     height: 95%;
     margin: 1rem auto;
   }
+  .about-photo {
+    width: 150%;
+    margin-top: 0;
+  }
+  .about-header {
+    font-size: 2.75rem;
+  }
+  .about-name {
+    font-size: 2rem;
+    margin: 0 0 3% 0;
+  }
+  .about-description {
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+  .skill-one, .skill-two, .skill-three {
+    font-size: 1.25rem;
+    margin: 2% 0 0 10%;
+  }
 }
 
 /* Mobile */
@@ -301,5 +319,6 @@ footer div a {
   }
   .project a {
     font-size: .8rem;
+
   }
 }
