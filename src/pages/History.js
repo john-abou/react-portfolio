@@ -8,15 +8,15 @@ export default function History() {
 
   return (
     <div id='History'>
-      <div className='text-center'>
-        <h3>History</h3>
+      <div className='section-title-light'>
+        <h1>History</h1>
       </div>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
+          date="2023 Jan - Apr"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<WorkIcon />}
+          icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">Full Stack Web Development Bootcamp</h3>
           <h4 className="vertical-timeline-element-subtitle">University of Toronto</h4>
@@ -25,22 +25,19 @@ export default function History() {
           className="vertical-timeline-element--education"
           date="2020 - 2022"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<SchoolIcon />}
+          icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">Operations Coordinator</h3>
           <h4 className="vertical-timeline-element-subtitle">Swyft</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="November 2012"
+          date="2019 - 2020"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design
-          </p>
+          <h3 className="vertical-timeline-element-title">Operations Coordinator</h3>
+          <h4 className="vertical-timeline-element-subtitle">DDB</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"

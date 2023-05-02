@@ -160,28 +160,20 @@ body {
   background-color: #333;
   opacity: 1;
 }
-/* Portfolio -- Tech Stack styles 
-.icon-container {
-  display: flex;
-  align-items: center;
+
+/* History Page Styles */
+#history {
   overflow: hidden;
-  width: 85%;
-  margin: 0 5% 3%;
+  height: auto;
+  background-color: #f4f4f4;
 }
-.icon {
-  height: 75px;
-  margin: 0 1rem;
-  animation: scroll 10s linear infinite;
-} 
-Define the animation
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}*/
+.section-title-light {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+  margin: 5% 0 !important;
+}
 
 
 /* Footer Styles */
@@ -266,25 +258,6 @@ footer div a {
     width: 95%;
     height: 95%;
     margin: 1rem auto;
-  }
-  .about-photo {
-    width: 150%;
-    margin-top: 0;
-  }
-  .about-header {
-    font-size: 2.75rem;
-  }
-  .about-name {
-    font-size: 2rem;
-    margin: 0 0 3% 0;
-  }
-  .about-description {
-    font-size: 1.5rem;
-    line-height: 1rem;
-  }
-  .skill-one, .skill-two, .skill-three {
-    font-size: 1.25rem;
-    margin: 2% 0 0 10%;
   }
 }
 
