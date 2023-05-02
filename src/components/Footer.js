@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedin, faMedium} from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
-
   return (
   <footer>
     <div className='links d-flex flex-row justify-content-center align-items-center mt-3 mb-3'>

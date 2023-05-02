@@ -8,7 +8,6 @@ import jate from '../assets/images/JATE.png';
 import bazaar from '../assets/images/bazaar.png';
 
 export default function Portfolio() {
-  
   const projects = [
     {
       name: 'Puppeteers Bazaar',
@@ -64,7 +63,12 @@ export default function Portfolio() {
 
   return (
     <section id="Portfolio">
-      <Project data={projects} />
+      <h1 className="portfolio-title">Portfolio</h1>
+      <div className='portfolio-background'>
+        <div className='portfolio-container'>
+          <Project data={projects} />
+        </div>
+      </div>
     </section>
   );
 }

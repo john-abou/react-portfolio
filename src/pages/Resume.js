@@ -21,7 +21,7 @@ export default function Resume() {
           <li className='list-group-item'>CSS</li>
           <li className='list-group-item'>JavaScript</li>
           <li className='list-group-item'>jQuery</li>
-          <li className='list-group-item'>responsive design</li>
+          <li className='list-group-item'>Responsive Design</li>
           <li className='list-group-item'>React</li>
           <li className='list-group-item'>Bootstrap</li>
         </ul>
