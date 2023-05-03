@@ -1,30 +1,34 @@
 import React from 'react';
+// import sendMail from '../utils/sendEmail';
 
 export default function Contact() {
-  const style = {
-    margin: {
-      "margin": "0 15% 0 15%"
-    }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // const name = e.target.name.value;
+    // const email = e.target.email.value;
+    // const message = e.target.message.value;
+    // sendMail(name, email, message);
+    // e.target.reset();
   }
-  return (
-    <section className="row" id='Contact' style={style.margin}>
-      <div className="col-12">
-        <h1 className='text-center my-5'>Contact</h1>
 
-        <form>
-          <div className="input-group mb-3">
-            <span className="input-group-text" id="basic-addon1">Name</span>
-            <input type="text" className='form-control' name="name" placeholder="John Doe" id="name" />
+  const textAreaRows = 5; 
+
+  return (
+    <section id='Contact'>
+      <h1 className='text-center my-5'>Contact</h1>
+      <div className="contact-container">
+        <h3 className='mb-5'>Leave me an email...</h3>
+        <form onSubmit={handleSubmit} className='row'>
+          <div className="input-group mb-3 col-9">
+            <input type="text" className='form-control' name="name" placeholder="Your name..." id="name" />
           </div>
           <div className="input-group mb-3">
-            <span className="input-group-text" id="basic-addon1">Email</span>
-            <input type="email" className='form-control' name="email" placeholder="john@gmail.com" id="email" />
+            <input type="email" className='form-control' name="email" placeholder="Your email..." id="email" />
           </div>
           <div className="input-group mb-3">
-            <span className="input-group-text" id="basic-addon1">Message</span>
-            <textarea type="message" className='form-control' name="message" placeholder="Your message here..." id="message" />
+            <textarea type="message" className='form-control' name="message" placeholder="Your message here..." id="message" rows={textAreaRows} />
           </div>
-          <div className='text-end'>
+          <div className='text-center'>
             <button className="btn btn-dark" type="submit">Submit</button>
           </div>
         </form>

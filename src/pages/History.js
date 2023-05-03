@@ -32,15 +32,6 @@ export default function History() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2019 - 2020"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Operations Coordinator</h3>
-          <h4 className="vertical-timeline-element-subtitle">DDB</h4>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
           date="2014 - 2019"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           icon={<SchoolIcon />}
