@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.df991611.css",
-    "main.js": "/react-portfolio/static/js/main.7d79453f.js",
-    "static/media/lovelink.png": "/react-portfolio/static/media/lovelink.e895fae02856eb29d698.png",
-    "static/media/we-the-north.png": "/react-portfolio/static/media/we-the-north.a938aed967e8643b0fe6.png",
-    "static/media/bazaar.png": "/react-portfolio/static/media/bazaar.437f77f69da189cb914d.png",
-    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.5357dde433e5e562380f.png",
-    "static/media/weather-app.png": "/react-portfolio/static/media/weather-app.837053a4ab7224ba5e0d.png",
-    "static/media/john4.png": "/react-portfolio/static/media/john4.ef434a6cd42176f4c726.png",
-    "static/media/icons.png": "/react-portfolio/static/media/icons.75c74b8a48f06b246f64.png",
-    "static/media/JATE.png": "/react-portfolio/static/media/JATE.6e9adf95c19b25c3526f.png",
-    "static/media/icons-mobile.png": "/react-portfolio/static/media/icons-mobile.846a94b68485b41546bc.png",
+    "main.css": "/react-portfolio/static/css/main.14c784a7.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.2d83b58f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.2d83b58f.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7e89dcab.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7e89dcab.js.map",
+    "static/css/2.cd999a48.chunk.css": "/react-portfolio/static/css/2.cd999a48.chunk.css",
+    "static/js/2.70778e1e.chunk.js": "/react-portfolio/static/js/2.70778e1e.chunk.js",
+    "static/js/2.70778e1e.chunk.js.map": "/react-portfolio/static/js/2.70778e1e.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "main.df991611.css.map": "/react-portfolio/static/css/main.df991611.css.map",
-    "main.7d79453f.js.map": "/react-portfolio/static/js/main.7d79453f.js.map"
+    "static/css/2.cd999a48.chunk.css.map": "/react-portfolio/static/css/2.cd999a48.chunk.css.map",
+    "static/css/main.14c784a7.chunk.css.map": "/react-portfolio/static/css/main.14c784a7.chunk.css.map",
+    "static/js/2.70778e1e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.70778e1e.chunk.js.LICENSE.txt",
+    "static/media/JATE.6e9adf95.png": "/react-portfolio/static/media/JATE.6e9adf95.png",
+    "static/media/bazaar.437f77f6.png": "/react-portfolio/static/media/bazaar.437f77f6.png",
+    "static/media/style.css": "/react-portfolio/static/media/icons.75c74b8a.png",
+    "static/media/john4.ef434a6c.png": "/react-portfolio/static/media/john4.ef434a6c.png",
+    "static/media/lovelink.e895fae0.png": "/react-portfolio/static/media/lovelink.e895fae0.png",
+    "static/media/tech-blog.5357dde4.png": "/react-portfolio/static/media/tech-blog.5357dde4.png",
+    "static/media/we-the-north.a938aed9.png": "/react-portfolio/static/media/we-the-north.a938aed9.png",
+    "static/media/weather-app.837053a4.png": "/react-portfolio/static/media/weather-app.837053a4.png"
   },
   "entrypoints": [
-    "static/css/main.df991611.css",
-    "static/js/main.7d79453f.js"
+    "static/js/runtime-main.7e89dcab.js",
+    "static/css/2.cd999a48.chunk.css",
+    "static/js/2.70778e1e.chunk.js",
+    "static/css/main.14c784a7.chunk.css",
+    "static/js/main.2d83b58f.chunk.js"
   ]
 }
