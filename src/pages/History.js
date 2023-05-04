@@ -11,6 +11,7 @@ export default function History() {
       <div className='section-title-light'>
         <h1>History</h1>
       </div>
+      <div className='history-container'>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -40,6 +41,7 @@ export default function History() {
           <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
         </VerticalTimelineElement>
       </VerticalTimeline>
+      </div>
     </div>
   )
 }

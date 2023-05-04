@@ -1,13 +1,10 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import photo from '../assets/images/john4.png'
 import LaptopIcon from '@material-ui/icons/Laptop';
 import SmartphoneIcon from '@material-ui/icons/Smartphone';
 import CheckBoxIcon from '@material-ui/icons/CheckBox';
 
 export default function About() {
-  let width = window.innerWidth;
-  const isTablet = width < 778;
-
   return (
     <div className='container-fluid'>
       <section id="about" className='row'>
