@@ -19,15 +19,15 @@ export default function Project( props ) {
         <div className='row align-items-center justify-content-center'>
             {props.data.map( (project, index) => (
               <div className='col-12 col-md-6 col-lg-4 project-container' key={index}>
-                <img src={project.image} className="img align-items-center justify-content-center" alt={project.description}/>
+                <img src={project.image} className="img" alt={project.description}/>
                 <div className='project fade-effect'>
-                  <figure className='d-flex flex-column justify-content-around align-items-center p-0 m-0'>
-                  <div>
+                  <figure className='fade-figure'>
+                    <div className='col-12'>
                       <h3>{project.name}</h3>
                       <p>{project.description}</p>
                       <p>{project.tools}</p>
                     </div>
-                    <div>
+                    <div className='col-12'>
                       <a href={project.github} className="btn mx-2" type="button">Github</a>
                       <a href={project.deployed} className="btn mx-2" type="button">Live Site</a>
                     </div>
@@ -51,7 +51,7 @@ export default function Project( props ) {
                 <div className='col-12 project-container' key={index}>
                   <img src={project.image} className="img align-items-center justify-content-between" alt={project.description}/>
                   <div className='project fade-effect'>
-                        <figure className='d-flex flex-column justify-content-around align-items-center flex-wrap'>
+                        <figure className='fade-figure'>
                           <div>
                             <h3 className='mb-5'>{project.name}</h3>
                             <p>{project.description}</p>

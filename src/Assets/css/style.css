@@ -158,12 +158,21 @@ body {
   height: 100%;
   margin: 0;
   top: 0;
-  background-color: whitesmoke;
+  color: whitesmoke;
+  background: radial-gradient(circle, #777777, #444);
 }
 .fade-effect:hover .btn {
   color: whitesmoke;
   background-color: #333;
   opacity: 1;
+}
+.fade-figure{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 
 /* History Page Styles */
@@ -359,4 +368,10 @@ footer div a {
   footer div a {
     margin: 0 1.5rem;
   }
+}
+
+/* Animation customizations */
+.animate__animated .animate__fadeInUp {
+  --animate-delay: 1s;
+  --animate-duration: 1s;
 }
