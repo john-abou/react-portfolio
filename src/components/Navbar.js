@@ -48,15 +48,6 @@ export default function Navbar({ currentPage, hanglePageChange }) {
                 History
             </a>
           </li>
-          <li className='nav-item mx-2'>
-            <a 
-              href="#Contact"
-              onClick={() => hanglePageChange('Contact')}
-              className={ currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-            >
-                Contact
-            </a>
-          </li>
         </ul>
       </div>
       </div>
