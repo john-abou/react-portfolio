@@ -239,6 +239,10 @@ footer div a {
   font-size: 2.75rem;
   color: #f4f4f4;
 }
+.footer-icon:hover{
+  color: #f7f7f7;
+  font-size: 2.5rem;
+}
 
 /* Breakpoints */
 /* Desktop */
