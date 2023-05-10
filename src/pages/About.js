@@ -8,8 +8,8 @@ export default function About() {
   return (
     <div className='container-fluid'>
       <section id="about" className='row'>
-        <div className='col-md-6 col-sm-12'>
-          <article className="about-text d-flex flex-column justify-content-center">
+        <div className='col-md-6 col-sm-12 about-text-container'>
+          <article className="about-text">
             <h1 className='about-header'>Full Stack Web Developer.</h1>
             <h2 className='about-name'>John Abounassar</h2>
             <div className='about-description'>

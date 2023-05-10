@@ -37,6 +37,11 @@ body {
   height: 650px;
   background-color: #f4f4f4;
 }
+.about-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .about-header {
   font-size: 4rem;
   font-weight: bold;
