@@ -17,7 +17,7 @@ export default function About() {
                   <h3 className='mx-2'>Specializing in: </h3>
                   <p className='skill-one'><LaptopIcon fontSize='large'/> Front-end Development</p>
                   <p className='skill-two'><SmartphoneIcon fontSize='large'/> Responsive Design</p>
-                  <p className='skill-three'><CheckBoxIcon fontSize='large'/> Problem Solving</p>
+                  <p className='skill-three'><CheckBoxIcon fontSize='large'/> The MERN stack</p>
                 </div>
             </div>
           </article>
