@@ -20,7 +20,7 @@ export default function Navbar({ currentPage, hanglePageChange }) {
        ) : (<div style={{display: 'none'}}></div>)}
 
       <div>
-        <ul className="navbar-nav d-flex flex-row justify-content-center me-5">
+        <ul className="navbar-nav d-flex flex-row justify-content-center">
           <li className='nav-item mx-2'>
             <a 
               href="#About"
