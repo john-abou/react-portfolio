@@ -11,7 +11,7 @@ export default function Portfolio() {
   const projects = [
     {
       name: 'Puppeteers Bazaar',
-      description: 'Full Stack Ecommerce Website',
+      description: 'MERN Full Stack Ecommerce Website',
       github: 'https://github.com/john-abou/smart-savings',
       deployed: 'https://puppeteers-bazaar.herokuapp.com/',
       image: bazaar,
@@ -19,7 +19,7 @@ export default function Portfolio() {
       type: 'Full Stack'
     }, {
       name: 'Weather',
-      description: 'Front-end Weather App',
+      description: 'Front-end React Weather App',
       github: 'https://github.com/john-abou/weather-app',
       deployed: 'https://john-abou.github.io/weather-app/',
       image: weather,
@@ -28,7 +28,7 @@ export default function Portfolio() {
     },
     {
       name: 'LoveLink',
-      description: 'Full Stack Dating App',
+      description: 'Full Stack Handlebars Dating App',
       github: 'https://github.com/winglovecola/love-link',
       deployed: 'https://love-link.herokuapp.com/',
       image: llImg,
@@ -36,7 +36,7 @@ export default function Portfolio() {
       type: 'Full Stack'
     }, {
       name: 'We-The-North',
-      description: 'Frontend NBA App',
+      description: 'Front-end NBA App',
       github: 'https://github.com/Bullspippen/We-The-North',
       deployed: 'https://john-abou.github.io/We-The-North/',
       image: weTheNorth,
@@ -44,7 +44,7 @@ export default function Portfolio() {
       type: 'Front End'
     }, {
       name: 'Tech-Blog',
-      description: 'Full Stack Blog Website',
+      description: 'Full Stack Handlebars Blog Website',
       github: 'https://github.com/john-abou/tech-blog',
       deployed: 'https://johns-blogsite.herokuapp.com/',
       image: techBlog,
