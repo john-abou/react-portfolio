@@ -9,7 +9,7 @@ export default function About() {
     <div className='container-fluid'>
       <section id="about" className='row'>
         <div className='col-md-6 col-sm-12 about-text-container'>
-          <article className="about-text">
+          <article className="about-text animate__animated animate__fadeIn">
             <h1 className='about-header'>Full Stack Web Developer.</h1>
             <h2 className='about-name'>John Abounassar</h2>
             <div className='about-description'>
@@ -23,7 +23,7 @@ export default function About() {
           </article>
         </div>
         <div className='col-md-6 col-sm-12'>
-          <aside className='about-photo-container'>
+          <aside className='about-photo-container animate__animated animate__fadeIn'>
             {<img src={photo} className="about-photo" alt="My face" />}
           </aside>
         </div>

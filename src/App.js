@@ -4,7 +4,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer';
 import History from './pages/History';
-import Contact from './components/Contact'
+import Contact from './pages/Contact'
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('About');

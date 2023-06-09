@@ -11,7 +11,7 @@ export default function History() {
       <div className='section-title-light'>
         <h1>History</h1>
       </div>
-      <div className='history-container animate__animated animate__fadeInUp'>
+      <div className='history-container animate__animated animate__fadeIn'>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

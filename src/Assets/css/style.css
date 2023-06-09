@@ -228,6 +228,12 @@ body {
   border-color: rgba(60, 60, 60, 0.7);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* Footer Styles */
@@ -374,7 +380,12 @@ footer div a {
 }
 
 /* Animation customizations */
-.animate__animated .animate__fadeInUp {
-  --animate-delay: 1s;
-  --animate-duration: 1s;
+.animate__animated .animate__fadeIn {
+  --animate-delay: 2s;
+  --animate-duration: 2s;
+}
+
+.animate__animated .animate__fadeOut {
+  --animate-delay: 2s;
+  --animate-duration: 2s;
 }

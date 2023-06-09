@@ -1,13 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-// Import bootstrap
+
+// Import bootstrap, animate.css, and custom styling
 import 'bootstrap/dist/css/bootstrap.min.css';
-// // Import react-tooltip CSS
-// import 'react-tooltip/dist/react-tooltip.css'
-// Import animate.css
-import 'animate.css';
-// import CSS style sheets
+import 'animate.css/animate.min.css';
 import './assets/css/style.css';
 
 
