@@ -4,6 +4,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer';
 import History from './pages/History';
+import Contact from './components/Contact'
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -16,6 +17,7 @@ export default function App() {
       <About />
       <Portfolio />
       <History />
+      <Contact />
       <Footer />
     </main>
   );
