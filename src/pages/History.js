@@ -8,7 +8,7 @@ export default function History() {
 
   return (
     <div id='History'>
-      <div className='section-title-light'>
+      <div className='section-title-light title'>
         <h1>History</h1>
       </div>
       <div className='history-container animate__animated animate__fadeIn'>

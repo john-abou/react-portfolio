@@ -9,6 +9,11 @@ body {
   line-height: 1.5;
   color: #333;
 }
+.title{
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin: 3.5% 0 !important;
+}
 .app-container {
   position: relative;
   height: 100vh;
@@ -101,11 +106,8 @@ body {
   background-color: #333;
 }
 .portfolio-title {
-  font-size: 3.5rem;
-  font-weight: 500;
   color: #f4f4f4;
   text-align: center;
-  margin: 5% 0 !important;
 }
 .portfolio-background {
   background-position: center;
@@ -113,7 +115,6 @@ body {
   background-repeat: repeat;
   background-size: 97%;
   padding: 4rem 2.5rem;
-  margin: 1rem 0;
 }
 .portfolio-container {
   max-height: 900px;
@@ -183,6 +184,7 @@ body {
   overflow: hidden;
   height: 650px;
   background-color: #f4f4f4;
+  padding: 4rem 2.5rem;
 }
 .section-title-light {
   font-size: 3.5rem;
@@ -194,7 +196,7 @@ body {
 .history-container{
   height: auto;
   width: 85%;
-  margin: 2rem auto;
+  margin: 4rem auto;
   background-color: rgba(230, 230, 230, 0.6);
   border-radius: 15px;
   border: solid 2px #f3f3f3;
@@ -212,6 +214,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+    padding: 0rem 2.5rem 2rem;
   align-items: center;
 }
 .contact-container{
@@ -258,8 +261,7 @@ footer div a {
   color: #f4f4f4;
 }
 .footer-icon:hover{
-  color: #f7f7f7;
-  font-size: 2.5rem;
+  color: gray;
 }
 
 /* Breakpoints */
