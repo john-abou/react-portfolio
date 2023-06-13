@@ -4,7 +4,7 @@ import llImg from '../assets/images/lovelink.png';
 import weather from '../assets/images/weather-app.png';
 import weTheNorth from '../assets/images/we-the-north.png';
 import techBlog from '../assets/images/tech-blog.png'
-import jate from '../assets/images/JATE.png';
+import jate from '../assets/images/jate.png';
 import bazaar from '../assets/images/bazaar.png';
 
 export default function Portfolio() {

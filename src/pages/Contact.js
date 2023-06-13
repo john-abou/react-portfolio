@@ -26,7 +26,7 @@ export default function Contact() {
     <section id='Contact'>
       <h1 className='text-center my-5 title'>Contact</h1>
       <div className="contact-container">
-        <a className='mb-2' href='../assets/john-resume.pdf' download>My Resume</a>
+        <a className='mb-2' href='/john-resume.pdf' download>My Resume</a>
         <div className={scroll ? 'contact-form animate__animated animate__fadeIn' : 'contact-form' }>
           <h3 className='mb-5'>Leave me an email...</h3>
           <form onSubmit={handleSubmit} className='row'>
