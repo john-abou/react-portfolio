@@ -66,6 +66,8 @@ body {
 .about-photo {
   margin: 0 auto;
   width: 70%;
+  max-width: 550px;
+  max-height: 550px;
 }
 .about-photo-container{
   display: flex;
