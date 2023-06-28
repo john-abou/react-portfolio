@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [Description](#description)
+- [Technolgies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -13,6 +14,13 @@
 
 ## Description
 This is my first React.js application, I found making my own React app helped me to understand how to use components and JSX. In the making of my portfolio I also had the opportunity to practice more of my front-end design skills. I think I have a lot more to learn in that regard and I plan to update this portfolio and improve the design. 
+
+
+## Technologies
+* React.js
+* Node.js
+* Bootstrap
+
 
 ## Deployment
 <a href="https://john-abou.github.io/react-portfolio/">Webpage link</a>
