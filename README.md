@@ -16,7 +16,7 @@ This is my first React.js application, I found making my own React app helped me
 
 ## Deployment
 <a href="https://john-abou.github.io/react-portfolio/">Webpage link</a>
-<img src='src/assets/images/portfolio.png'> 
+<img src='public/portfolio.png'> 
 
 
 ## Installation
