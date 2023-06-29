@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
-import Footer from './components/Footer';
 import History from './pages/History';
 import Contact from './pages/Contact'
 
@@ -18,7 +17,6 @@ export default function App() {
       <Portfolio />
       <History />
       <Contact />
-      <Footer />
     </main>
   );
 }
