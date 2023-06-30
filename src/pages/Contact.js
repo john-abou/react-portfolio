@@ -1,11 +1,39 @@
 import React, { useState, useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFile, faPhone } from '@fortawesome/free-solid-svg-icons';
+import Icons from '../components/Icons';
 
 
 export default function Contact() {
   const [scroll, setScroll] = useState(false);
+
+  const contactInfo = [{
+    icon: faGithub,
+    contact: 'GitHub',
+    href: 'https://github.com/john-abou',
+    info: 'john-abou'
+  },  {
+    icon: faLinkedin,
+    contact: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/john-abounassar/',
+    info: 'john-abounassar'
+  },  {
+    icon: faEnvelope,
+    contact: 'Email',
+    href: 'mailto:abounassar.john@gmail.com',
+    info: 'abounassar.john@gmail.com'
+  }, {
+    icon: faFile,
+    contact: 'Resume',
+    href: './john-resume.pdf',
+    info: 'my resume'
+  }, {
+    icon: faPhone,
+    contact: 'Phone',
+    href: 'tel:+1-905-330-4652',
+    info: '+1 905-330-4652'
+  }
+]
 
     useEffect(() => {
       window.addEventListener("scroll", () => {
@@ -23,20 +51,13 @@ export default function Contact() {
   return (
     <section id='Contact'>
       <h1 className='text-center my-5 title'>Contact</h1>
-      <div>
-        <h3 className='my-5'>Get in touch to get the ball rolling</h3>
-
+      <div className='contact-container'>
+        <h3 className='contact-msg'>Get in touch to get the ball rolling</h3>
         <div className='links'>
-          <div>
-            {/* Create icon component to be mapped through, have icons car above with needed info to pass as props into the comp. */}
-          </div>
-          <a href="https://github.com/john-abou" className='nav-link  mx-4'><FontAwesomeIcon icon={faGithub} /></a>
-          <a href="https://www.linkedin.com/in/john-abounassar/" className='nav-link mx-4'><FontAwesomeIcon icon={faLinkedin} /></a>
-          <a href='mailto:abounassar.john@gmail.com'  className='nav-link mx-4'><FontAwesomeIcon icon={faEnvelope} /></a>
-          <a href='/john-resume.pdf' download className='nav-link mx-4'><FontAwesomeIcon icon={faFile} /></a>
-          <a href='tel:1-905-330-4652' className='nav-link mx-4'><FontAwesomeIcon icon={faPhone} /></a>
+            {contactInfo.map((contact, index) => {
+              return <Icons key={index} {...contact} />
+            })}
         </div>
-
       </div>
     </section>
   );
