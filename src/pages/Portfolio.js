@@ -6,10 +6,16 @@ import weTheNorth from '../assets/images/we-the-north.png';
 import techBlog from '../assets/images/tech-blog.png'
 import jate from '../assets/images/jate.png';
 import bazaar from '../assets/images/bazaar.png';
+import traderGeo from '../assets/images/trader-geo.png'
 
 export default function Portfolio() {
   const projects = [
     {
+      name: 'TradeWithGeo',
+      description: 'WordPress Front-End Website',
+      image: 
+
+    }, {
       name: 'Puppeteers Bazaar',
       description: 'MERN Full Stack Ecommerce Website',
       github: 'https://github.com/john-abou/smart-savings',
